@@ -1,1 +1,45 @@
-node_modules
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript specific files
+*.tsbuildinfo
+
+# Testing artifacts
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# IDE configuration
+/.vscode/*
+/.idea/*
+*.code-workspace
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.temp
+*.tgz
+*.zip
