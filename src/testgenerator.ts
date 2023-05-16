@@ -1,7 +1,7 @@
 import { PromptTemplate } from 'langchain/prompts';
 import { Document } from 'langchain/document';
 import { OpenAI } from 'langchain/llms/openai';
-import { LLMChain, SimpleSequentialChain } from 'langchain/chains';
+import { LLMChain } from 'langchain/chains';
 import fs from 'fs';
 import * as process from 'process';
 import YAML from 'yaml';
@@ -55,7 +55,7 @@ export const generateUnitTest = async (functionName: string) => {
     }),
   ];
 
-  console.log(await prompt.format({functionName: 'removeEmptyValues'}));
+  console.log(await prompt.format({ functionName: 'removeEmptyValues' }));
   const chain = new LLMChain({ llm: model, prompt: prompt });
 
   let unitTest = await chain.call({

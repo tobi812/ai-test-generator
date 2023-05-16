@@ -1,5 +1,5 @@
 {
-  "name": "langchain",
+  "name": "ai-test-generator",
   "version": "1.0.0",
   "main": "dist/main.js",
   "scripts": {
