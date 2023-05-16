@@ -1,0 +1,22 @@
+prompts:
+  - instructions: |
+      Learn yaml structure to generate code.
+      The structure looks like this:
+      ```yaml
+      tasks:
+        - language: languageName
+          requirements:
+            - dependency1
+          instructions:
+            - 'example instruction'
+      ```
+      Each task has the following properties:
+      - Tasks are different code generation tasks.
+      - Language is the language of the code to be generated.
+      - Requirements are the dependencies that should be used to run the code.
+      - Instructions describe what the behavior of the code should be.
+      
+      
+
+
+      

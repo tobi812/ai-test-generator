@@ -1,0 +1,12 @@
+tasks:
+  - language: typescript
+    instructions:
+      - 'Write unit tests for the function {functionName}'
+      - 'Data types of input mocks should be the same as argument types'
+      - 'Consider all necessary import statements'
+      - 'Consider all test cases'
+      - 'Mock external dependencies'
+      - 'Return code only'
+    requirements:
+      - 'jest'
+      - 'typescript'
